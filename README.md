@@ -1,16 +1,17 @@
-# hihiwin
+# hihiwin 
+/////初始化/////
+1.下載主專案
 git clone https://github.com/anniehappy16/hihiwin.git
 
-#git clone
 cd src
-1.realsenseai
+2.下載相機套件
 git clone https://github.com/realsenseai/realsense-ros.git
-2.Hiwin_libmodbus
+3.下載手臂套件
 git clone https://github.com/tku-iarc/Hiwin_libmodbus
 
 cd ..
 
-
+/////執行ros2專案/////
 #open realsense
 colcon build --symlink-install
 source install/setup.bash
